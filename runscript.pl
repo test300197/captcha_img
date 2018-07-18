@@ -2,7 +2,7 @@ use strict;
 use utf8;
 use open ':std', ':encoding(UTF-8)';
 
-my $name_img = 'cat4-img.jpg';
+my $name_img = 'recolor4.png';
 my $name_out = 'text';
 my $text_out;
 my $cmd = 'tesseract ' . $name_img . ' '. $name_out . ' -l rus';
